@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: purple;
+}
+
+
+body {
+    margin: 0 auto;
+    background-color: paleturquoise;
+}
+
+nav>h1 {
+    margin-right: auto;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+}
+
+.section-border {
+    border-top: 1px solid black;
+}
+
+.section-border img{
+    float: left;
+    height: 100px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 10px) and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav>h1 {
+        margin-right: 0;
+    }
+}
+
+.portfolio-border {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.project-1 {
+    background-color: aquamarine;
+    background-clip: content-box;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.project-1-img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    background-color: azure;
+}
+
+.twit img {
+    height: 30px;
+}
+
+div.container {
+    padding: 10px;
+}
